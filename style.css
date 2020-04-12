@@ -142,6 +142,7 @@ p {
   border: 3px solid #13306a;
 }
 .footer {
+  margin-top:5px;
   padding: 5px;
   border: 3px solid #13306a;
   margin: auto;
