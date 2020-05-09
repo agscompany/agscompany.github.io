@@ -6,58 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/images/logo.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <a name="UP"></a>
     <header>
       <div class="header">
         <div class="logo1">
           <img
-            width="190px"
-            height="190px"
+            width="190"
+            height="190"
             src="/images/logo.png"
             alt="logo"
             title="Logo"
           />
         </div>
         <div class="text">
-          <p class="main_name">AGS Company</p>
+          <h1 class="main_name">AGS Company</h1>
           <p class="description">Game Development Studio</p>
         </div>
       </div>
     </header>
-    <div class="content">
-      <aside class="">
-        <div class="sidebar_menu">
-          <div class="menuul">
-            <ul style="padding: 0px;" type="none">
-              <li><a class="menurefs" href="#HOME">Home</a></li>
-              <li><a class="menurefs" href="#NEWS">News</a></li>
-              <li><a class="menurefs" href="#GAMES">Games</a></li>
-              <li><a class="menurefs" href="#YT">YouTube</a></li>
-              <li><a class="menurefs" href="#VK">Vk</a></li>
-              <li><a class="menurefs" href="#ABOUT">About</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="sidebar_interview"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
-        <div class="sidebar_ad"></div>
+    <nav>
+      <a class="menurefs">Home</a>
+      <!--<a class="menurefs" >News</a>-->
+      <a class="menurefs">Games</a>
+      <a class="menurefs">YouTube</a>
+      <a class="menurefs">Vk</a>
+      <a class="menurefs">About</a>
+    </nav>
+    <main class="content">
+      <aside>
+        <!--<div class="sidebar_interview">
+          <form id="form_question1" action="">
+            <p style="text-align: center; font-size: 24px;">Interview</p>
+            <p style="text-align: justify; font-size: 18px;">
+              How many computer games do you play per day?
+            </p>
+            <label
+              style="margin: 0px auto; font-size: 16px; color: #040b1a;"
+              for="question1"
+            >
+              <input type="radio" name="question1" id="2hours" />2 hours<br />
+              <input type="radio" name="question1" id="1hour" />1 hour<br />
+              <input type="radio" name="question1" id="3hours" />3 hours<br />
+              <input type="radio" name="question1" id="over3hours" />More than 3
+              hours<br />
+              <input type="radio" name="question1" id="less1hour" />Less than an
+              hour<br />
+              <input type="radio" name="question1" id="nogaming" />Don't play
+            </label>
+            <label for="submit">
+              <input type="submit" value="Отправить" class="interview_submit" />
+            </label>
+          </form>
+        </div>-->
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
+        <div class="ad"></div>
       </aside>
-
       <section>
-        <div class="sidebar_home">
-          <a name="HOME"></a>
-          <p align="center">HOME</p>
+        <div class="sidebars">
+          <h3>HOME</h3>
           <div class="text">
             <p>
               Welcome to our site. We are developing games and applications. We
@@ -70,36 +88,73 @@
             </p>
           </div>
         </div>
-        <div class="sidebar_news">
-          <a name="NEWS"></a>
-          <p align="center">NEWS</p>
+        <!--
+        <div class="sidebars">
+          <p >NEWS</p>
+        </div> -->
+        <div class="sidebars">
+          <h3>GAMES</h3>
+          <div class="games" id="games">
+            <a class="game">
+              <p class="game-name">Name</p>
+              <img src="/images/logo.png" alt="" class="game-img" />
+              <p class="game-year">2020</p>
+              <p class="game-des">description</p>
+            </a>
+            <a href="" class="game">
+              <p class="game-name">Name</p>
+              <img src="/images/logo.png" alt="" class="game-img" />
+              <p class="game-year">2020</p>
+              <p class="game-des">description</p>
+            </a>
+            <a href="" class="game">
+              <p class="game-name">Name</p>
+              <img src="/images/logo.png" alt="" class="game-img" />
+              <p class="game-year">2020</p>
+              <p class="game-des">description</p>
+            </a>
+            <a href="" class="game">
+              <p class="game-name">Name</p>
+              <img src="/images/logo.png" alt="" class="game-img" />
+              <p class="game-year">2020</p>
+              <p class="game-des">description</p>
+            </a>
+            <a href="" class="game">
+              <p class="game-name">Name</p>
+              <img src="/images/logo.png" alt="" class="game-img" />
+              <p class="game-year">2020</p>
+              <p class="game-des">description</p>
+            </a>
+          </div>
+          <div class="game-page" id="gamepage">
+            <p>Name:</p>
+            <p class="name"></p>
+            <br />
+            <p>Date:</p>
+            <p class="date"></p>
+            <br />
+            <p>Size:</p>
+            <p class="size"></p>
+            <br />
+          </div>
         </div>
-        <div class="sidebar_games">
-          <a name="GAMES"></a>
-          <p align="center">GAMES</p>
+        <div class="sidebars">
+          <h3>YOUTUBE CHANNEL</h3>
         </div>
-        <div class="sidebar_games">
-          <a name="YT"></a>
-          <p align="center">YOUTUBE CHANNEL</p>
+        <div class="sidebars">
+          <h3>VK GROUP</h3>
         </div>
-        <div class="sidebar_games">
-          <a name="VK"></a>
-          <p align="center">VK GROUP</p>
-          <!--<iframe src="https://vk.com/ags_company" frameborder="3"></iframe>-->
-        </div>
-        <div class="sidebar_about">
-          <a name="ABOUT"></a>
-          <p align="center">ABOUT</p>
+        <div class="sidebars">
+          <h3>ABOUT</h3>
         </div>
       </section>
-    </div>
+    </main>
     <footer>
       <div class="footer">
         FOOTER
       </div>
     </footer>
-    <a class="pageup" href="#UP"
-      ><img class="upimg" src="/images/up.png" alt="UP"
-    /></a>
+    <a class="pageup"><img class="upimg" src="images/up.png" alt="UP" /></a>
+    <script src="js/main.js"></script>
   </body>
 </html>
